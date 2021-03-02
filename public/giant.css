@@ -1,0 +1,1164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+      background: #f7f7f7;
+      height: 2936px;
+  }
+
+.content {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+	margin: 0 auto !important; 
+    width: 1280px;
+    height: 2936px;
+    background: #000847;
+    scroll-behavior: smooth;
+    border: none;
+    padding: none;
+}
+
+.navWrapper {
+    position: absolute;
+    width: 90.3125%;
+    height: 42.42px;
+    left: 60px;
+    top: 42.58px;
+}
+
+.logo {
+    position: absolute;
+    left: 0%;
+    right: 97.15%;
+    top: 8.06%;
+    bottom: 0%;
+}
+
+.logo::selection{
+    background: #446DFF;
+}
+
+.exp {
+    position: absolute;
+    left: 9.78%;
+    right: 81.92%;
+    margin-top: 11.42px;
+    margin-bottom: 9px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.exp:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.proj{
+    position: absolute;
+    left: 25%;
+    right: 68.86%;
+    margin-top: 11.42px;
+    margin-bottom: 9px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.proj:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.resume{
+    position: absolute;
+    left: 38.06%;
+    right: 55.97%;
+    margin-top: 11.42px;
+    margin-bottom: 9px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.resume:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.contact{
+    position: absolute;
+    left: 50.95%;
+    right: 42.47%;
+    margin-top: 11.42px;
+    margin-bottom: 4px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.github{
+    position: absolute;
+    left: 81.23%;
+    right: 16.18%;
+    top: 12.77%;
+    bottom: 20.3%;
+    opacity: 0.6;
+}
+
+.github:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.email {
+    position: absolute;
+    left: 88.67%;
+    right: 7.87%;
+    top: 17.49%;
+    bottom: 23.58%;
+    opacity: 0.6;
+}
+
+.email:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.linkedIn {
+    position: absolute;
+    left: 96.54%;
+    right: 0.86%;
+    top: 12.77%;
+    bottom: 20.3%;
+    opacity: 0.6;
+}
+
+.linkedIn:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.faceWrapper {
+    position: absolute;
+    top: 136px;
+    text-align: center;
+    width: 100%;
+    height: 170px;
+}
+
+.face{
+    width: 172px;
+    height: 170px;
+    display: inline-block;
+}
+.heyWrapper {
+    position: absolute;
+    width: 100%;
+    height: 38px;
+    top: 331px;    
+    text-align: center;
+    
+}
+
+.wave{
+    display: inline-block;
+}
+
+.heyText {
+    position: absolute;
+    left: 18.25%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.CTAWrapper {
+    position: absolute;
+    width: 78.04%;
+    height: 210px;
+    left: 11.7968%;
+    top: 388px;
+}
+
+.introText {
+    left: -1.56%;
+    right: -1.66%;
+    margin-top: 0px;
+    margin-bottom: 150px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.currText {
+    position: absolute;
+    left: 233px;
+    right: 233px;
+    margin-top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.CTABtnDiv {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 544px;
+    text-align: center;
+}
+
+.topBtnWrapper {
+    width: 445.07px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 80.34%;
+}
+
+.exploreBtn {
+    position: absolute;
+    left: 0%;
+    right: 44.52%;
+    border: none;
+    height: 50px;
+    width: 238px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #446DFF;
+    border-radius: 7px;
+}
+
+.exploreBtn:hover{
+    cursor: pointer;
+    background: #3A60E4;
+}
+
+.exploreBtn:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.15);
+}
+
+.getInTouchBtn {
+    position: absolute;
+    left: 61.77%;
+    right: 0%;
+    height: 50px;
+    width: 164px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+    background: rgba(255, 255, 255, 0.10);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 7px;    
+}
+
+.getInTouchBtn:hover {
+    background: rgba(255, 255, 255, 0.20);
+    cursor: pointer;
+}
+
+.getInTouchBtn:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.15);
+}
+
+.workExpText {
+    position: absolute;
+    height: 45px;
+    left: 7.265625%;
+    top: 738px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.workWrapper1 {
+    position: absolute;
+    width: 87.03125%;
+    height: 5.0554%;
+    left: 7.265625%;
+    top: 808px;
+}
+
+.workImg1 {
+    position: absolute;
+    left: 0%;
+    right: 92.82%;
+    top: 0%;
+    bottom: 75px;
+}
+
+.workInfoWrapper1 {
+    position: absolute;
+    left: 9.87%;
+    height: 145px;
+    width: 90.13%;
+    top: 10px;
+    bottom: 0%;
+    border-radius: 0px;
+}
+
+.workHead1 {
+    position: absolute;
+    left: 0%;
+    margin-top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #446DFF;
+}
+
+.workDate1 {
+    position: absolute;
+    left: 0%;
+    margin-top: 30px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.workDesc1 {
+    position: absolute;
+    left: 0%;
+    margin-top: 65px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 150;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.projWrapper {
+    position: absolute;
+    width: 81.953%;
+    height: 956px;
+    left: 7.2656%;
+    top: 1088px;
+}
+
+
+.projHead {
+    position: absolute;
+    left: 7.27%;
+    top: 1030px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+.totProjDesc {
+    position: absolute;
+    left: 7.265625%;
+    top: 1099px;
+    right: 8%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+.proj1 {
+    position: absolute;
+    left: 4.29%;
+    right: 49.95%;
+    top: 11.19%;
+    bottom: 46.97%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 400px;
+    width: 450px;
+}
+
+.proj1:hover{
+    cursor: pointer;
+}
+
+.logoBackDrop1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 144px;
+    width: 100%;
+
+    background: #446DFF;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.proj1Pic {
+    position: absolute;
+    left: 42.5%;
+    right: 42.71%;
+    top: 28.47%;
+    bottom: 29.17%;
+}
+
+.crowdsupply {
+    position: absolute;
+    left: 35.42%;
+    right: 35.62%;
+    margin-top: 161px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000847;
+}
+
+.toolsPic1 {
+    position: absolute;
+    left: 40.83%;
+    right: 40.77%;
+    top: 51.25%;
+    bottom: 42.75%;
+}
+
+.projDesc1 {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 59%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000847;
+}
+
+.finPic1 {
+    position: absolute;
+    left: 1.46%;
+    right: 1.67%;
+    top: 90.25%;
+    bottom: 1.75%;
+    width: 96.875%;
+}
+
+.proj2 {
+    position: absolute;
+    left: 57.0998%;
+    right: 0%;
+    top: 11.19%;
+    bottom: 46.97%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 400px;
+    width: 450px;
+}
+
+.proj2:hover{
+    cursor: pointer;
+}
+
+.logoBackDrop2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 144px;
+    width: 100%;
+
+    background: #446DFF;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.proj2Pic {
+    position: absolute;
+    left: 40.21%;
+    right: 39.43%;
+    top: 28.47%;
+    bottom: 29.17%;
+}
+
+.universal {
+    position: absolute;
+    left: 35.42%;
+    right: 35.62%;
+    margin-top: 161px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000847;
+}
+
+.toolsPic2 {
+    position: absolute;
+    left: 40.83%;
+    right: 40.77%;
+    top: 51.25%;
+    bottom: 42.75%;
+}
+
+.projDesc2 {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 59%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000847;
+}
+
+.finPic2 {
+    position: absolute;
+    left: 1.46%;
+    right: 1.67%;
+    top: 90.25%;
+    bottom: 1.75%;
+    width: 96.875%;
+}
+
+.proj3 {
+    position: absolute;
+    left: 4.29%;
+    right: 49.95%;
+    top: 58.16%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 400px;
+    width: 450px;
+}
+
+
+.logoBackDrop3 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 144px;
+    width: 100%;
+
+    background: #446DFF;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.proj3Pic {
+    position: absolute;
+    left: 43.54%;
+    right: 44.17%;
+    top: 28.47%;
+    bottom: 29.17%;   
+}
+
+.greenTweet {
+    position: absolute;
+    left: 35.42%;
+    right: 35.62%;
+    margin-top: 161px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000847;
+}
+
+.toolsPic3 {
+    position: absolute;
+    left: 36.67%;
+    right: 37.02%;
+    top: 51.5%;
+    bottom: 42.5%;
+}
+
+.projDesc3 {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 59%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000847;
+}
+
+.devPic3 {
+    position: absolute;
+    left: 1.46%;
+    right: 1.67%;
+    top: 90.25%;
+    bottom: 1.75%;
+    width: 96.875%;
+}
+
+.proj4 {
+    position: absolute;
+    left: 57.0998%;
+    right: 0.1%;
+    top: 58.16%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 400px;
+    width: 450px;
+}
+
+
+.logoBackDrop4 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 144px;
+    width: 100%;
+
+    background: #446DFF;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.proj4Pic {
+    position: absolute;
+    left: 45.21%;
+    right: 45.27%;
+    top: 28.47%;
+    bottom: 29.17%;
+}
+
+.wildfire {
+    position: absolute;
+    left: 35.42%;
+    right: 35.62%;
+    margin-top: 161px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000847;
+}
+
+.toolsPic4 {
+    position: absolute;
+    left: 36.67%;
+    right: 37.02%;
+    top: 51.5%;
+    bottom: 42.5%;
+}
+
+.projDesc4 {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 59%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000847;
+}
+
+.devPic4 {
+    position: absolute;
+    left: 1.46%;
+    right: 1.67%;
+    top: 90.25%;
+    bottom: 1.75%;
+    width: 96.875%;
+}
+
+.contactForm {
+    width: 100%;
+}
+
+.contactHead{
+    position: absolute;
+    height: 45px;
+    left: 7.2656%;
+    top: 2130px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.contactDesc {
+    position: absolute;
+    height: 54px;
+    left: 7.2656%;
+    top: 2199px;
+    width: 83.828%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+}
+
+.contactWrapper {
+    position: absolute;
+    width: 83.828%;
+    height: 535px;
+    left: 8.046%;
+    top: 2305px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.nameField {
+    position: absolute;
+    width: 44.828%;
+    height: 87px;
+    left: 26px;
+    right: 0%;
+    top: 32px;
+}
+
+.namePic {
+    position: absolute;
+    left: 3.33%;
+    right: 92.93%;
+    top: 62.07%;
+    bottom: 17.24%;
+    height: 18px;
+    width: 18px;
+    z-index: 2;
+}
+
+.nameLbl {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    margin-bottom: 68.97%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000847;
+}
+
+.name {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 44.83%;
+    height: 48px;
+    width: 100%;
+
+    background: #FFFFFF;
+    border: 2px solid #446DFF;
+    box-sizing: border-box;
+    border-radius: 7px;
+    z-index: 1;
+    padding-left: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000847;
+}
+
+.name:focus {
+    border: 2px solid #446DFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 4px rgba(68, 109, 255, 0.15);
+    outline: none;
+}
+
+.emailField {
+    position: absolute;
+    width: 44.828%;
+    height: 87px;
+    left: 52.377%;
+    top: 32px;
+    right: 2.7959%;
+    text-align: center;
+}
+
+.emailLbl {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    bottom: 68.97%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000847;
+}
+
+.emailInput {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 44.83%;
+    bottom: 0%;
+    height: 48px;
+    width: 100%;
+    border-radius: 7px;
+
+    background: #FFFFFF;
+    border: 2px solid #446DFF;
+    box-sizing: border-box;
+    border-radius: 7px;
+    z-index: 1;
+    padding-left: 55px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000847;
+}
+
+.emailInput:focus {
+    border: 2px solid #446DFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 4px rgba(68, 109, 255, 0.15);
+    outline: none;
+ }
+.emailPic {
+    position: absolute;
+    left: 3.74%;
+    right: 90.33%;
+    top: 62.07%;
+    bottom: 17.24%;
+    height: 18px;
+    width: 28.532468795776367px;
+    z-index: 2;
+}
+
+.subjField {
+    position: absolute;
+    width: 94.782%;
+    height: 79px;
+    left: 26px;
+    top: 136px;
+    right: 2.7959%;
+}
+
+.subjLbl {
+    position: absolute;
+    left: 0%;
+    right: 93.02%;
+    top: 0%;
+    bottom: 65.82%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #000847;
+}
+
+.subjPic {
+    position: absolute;
+    left: 1.57%;
+    right: 96.26%;
+    top: 58.23%;
+    bottom: 18.99%;
+    z-index: 2;
+}
+
+.subject {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 39.24%;
+    bottom: 0%;
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #446DFF;
+    box-sizing: border-box;
+    border-radius: 7px;
+    z-index: 1;
+    padding-left: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000847;
+}
+
+.subject:focus {
+    border: 2px solid #446DFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 4px rgba(68, 109, 255, 0.15);
+    outline: none;
+}
+
+.msgField {
+    position: absolute;
+    width: 94.782%;
+    height: 274px;
+    left: 26px;
+    top: 232px;
+    right: 2.7959%;
+}
+
+.msgLbl {
+    position: absolute;
+    left: 0%;
+    right: 91.74%;
+    top: 0%;
+    bottom: 90.15%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000847;
+}
+
+.msg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 14.6%;
+    bottom: 30.66%;
+    height: 150px;
+    width: 100%;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #000847;
+
+    background: #FFFFFF;
+    border: 2px solid #446DFF;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.msg:focus {
+    border: 2px solid #446DFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 4px rgba(68, 109, 255, 0.15);
+    outline: none;
+}
+
+.sentCheck {
+    position: absolute;
+    left: 48.77%;
+    right: 48.77%;
+    top: 87.59%;
+    bottom: 5.6%;
+    z-index: 2;
+    display: none;
+}
+
+.contactSubmit {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 81.39%;
+    bottom: 0%;
+    height: 51px;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    background: #446DFF;
+    border-radius: 7px;
+    z-index: 1;
+}
+
+.contactSubmit:hover{
+    background: #3A60E4;
+    cursor: pointer;
+}
+
+.contactSubmit:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgba(68, 109, 255, 0.15);
+}
+
+.builtByWrapper {
+    position: absolute;
+    top: 2865px;
+    width: 100%;
+    text-align: center;
+}
+
+.builtBy {
+    height: 30px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
